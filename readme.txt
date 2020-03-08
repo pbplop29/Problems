@@ -1,0 +1,1 @@
+Ok! So this repo has non JS stuff, basically python for now. :p 
