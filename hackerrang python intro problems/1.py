@@ -9,3 +9,5 @@ elif (n % 2 == 0 and 6 <= n <= 100):
     print("Not Weird")
 else:
     pass
+
+# Easy probelm to print for different if cases

@@ -8,3 +8,6 @@ def leap_year(year):
 
 
 year = int(input())
+# Check wheter a given year is leap year or not
+# conditions :
+# leap if div by 4, but not if by 100 but yes if by 400

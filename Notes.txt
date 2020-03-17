@@ -1,0 +1,2 @@
+1)C++ can have 2**63 - 1 long long-int
+2)// is an operator that divides and gives the nearest whole number as output
