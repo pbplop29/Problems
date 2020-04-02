@@ -1,2 +1,80 @@
 1)C++ can have 2**63 - 1 long long-int
+
 2)// is an operator that divides and gives the nearest whole number as output
+
+3)Range(x) means range from 0 to x exculsive of x
+
+4)array('i',[]) -->[] denotes empty array
+
+5)Array=input().split()         
+    print(Array)
+    -->This helps us to create an array with spaces between the elements
+    -->eg.
+        1 2 3 4 5 (enter)
+        ['1','2','3','4','5']     
+
+6)Array=input().split() 
+    if [:n] is used after the above statement it only takes in n number of members in the array 
+    -->eg.
+    n = 5
+    1 2 3 4 5 6 7 8 9 0 (enter)             
+    ['1','2','3','4','5']
+
+7)sorted(<lsit_name>
+    -->This command helps us to sort the given array or list in ascending order.
+
+8)set(<list_name)
+    -->This command helps us to remove reppeated items in a set
+
+9)Len method counts from 1
+
+10)Range counts from 0
+
+11)Element counts from 0
+
+12) A = map(int, input().split())
+    -->Here maps method maps every input to int value
+
+13) list=[]
+    details = (input(), int(input()))
+    for i in ragne(n)
+    list.append(details)
+--> This helps us to append ordered pairs of any types to a list
+
+14)for (a,b) in X:
+    if a == n:
+    b= 'null'
+-->This helps to compare one element from a pair in a list and make changes to the other
+
+15)<dict_name>>.__setitem__(key, key_value)
+    -->this is used to add items to the dictionary
+    -->this performs the same as:
+            <dict_name>[key]=key_value
+
+16)round(<number>,<significant_digits>)
+    -->this is used to round off number to required significant digits.
+
+17)print("{:.2f}".format(<number>))
+    -->This will print the number rounded off to 2 decimal places.
+
+19) eval -->evaluate
+    any expression passed is converted to a string
+    you just input a command and it processes there
+    --> eval(input())
+    -->TERMINAL-->print(5)
+                    -->OUTPUT--> 5 
+#REALLY_IMPORTANT_CONCEPT
+
+20)from datetime import datetime as dt
+            #understanding strptime
+-->.total_seconds() --> is a module that returns total seconds in a given strptime thing
+-->fmt -> format --> %a = day %d = date %b =Month %Y =year %H:%M:%S = hour:minute:second   %z = time-zone-diff
+-->dt.strptime(date,fmt) --> arranges in the format and then . total_seconds()calculates total seconds invlolved
+(probem 2(datetime library).py)
+
+21) <string>.swapcase() is a method used to swap cases of lower to upper and upper to lower
+
+22)<string>.split("<at the point that you wanna split>")
+    "<he point that you wanna join with>".join(<string>)
+
+23) <string>.ljust/.rjust/.center(<width>,<character to pushg with>) are used to adjust the output on the screen.
